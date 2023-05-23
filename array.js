@@ -40,7 +40,7 @@ favFoods.push("banana","cookies","ice cream")
 console.log(favFoods)
 //check you foods
 console.log(favFoods.includes("scone"))
-//check through array
+//check by myIncludes function
 console.log(myIncludes(favFoods, "beer"))
 
 
