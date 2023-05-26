@@ -25,7 +25,7 @@ drawNg(5); */
 
 //-------------------------------------------------------
 
-//today exercise (3, 5, 6, 12, 13, 28*, 29*) * = advance
+//today exercise (3, 5, 6, 12, 13, 16, 28*, 29*) * = advance
 
 //-------------------------------------------------------
 
@@ -123,6 +123,8 @@ console.log(mutual(class1, class2)); */
 
 fizzBuzz(15); */
 
+//---------------------------------------------------
+
 //12
 //Do not use Array helper methods - use a simple 'for loop'
 
@@ -167,10 +169,38 @@ console.log(filterGt(111, arr)); */
 
 //---------------------------------------------------
 
-//28
-const imageBytes = [1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1];
+/* //16
+let arr = [1, 2, 3];
+
+function mean(a) {
+  let sum = 0;
+  let n = a.length;
+  // use < not <=
+  for (let i = 0; i < n; i++) {
+    sum += a[i];
+    if (a[i] !== typeof Number()) {
+      return null;
+    } else {
+    }
+  }
+  return sum / n;
+}
+
+console.log(mean(arr)); */
 
 //---------------------------------------------------
+
+//28
+//const imageBytes = [1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1];
+
+//---------------------------------------------------
+
+//4
+//create function fib(n)
+// x =
+
+//---------------------------------------------------
+
 /* //filterGtNeg (-20,[-1,-2,2,3,-100]) > [-1,-2]
 const filterGtNeg = () => {
 
