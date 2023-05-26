@@ -281,7 +281,7 @@ console.log(mode(bank));
 */
 
 //Art's code
-function mode(arr) {
+/* function mode(arr) {
   let dict = {};
   let max = 0,
     count = 0;
@@ -302,6 +302,26 @@ function mode(arr) {
   return max;
 }
 
-console.log(mode(bank));
+console.log(mode(bank)); */
 
 //======================================================
+
+//15
+//เงินต้นรวมดอกเบี้ย = เงินต้น x (1+อัตราดอกเบี้ยต่อปี) ยกกำลังจำนวนปี
+// method 1
+/* function periodReturn(amount, interest, n) {
+  return amount * (1 + interest / 100) ** n;
+} */
+
+//amount = periodReturn(amount, interestPercent / 100);
+
+// method 2
+/* function compoundReturn(amount, interest, n) {
+  let interest = 0;
+  for (let i = 0; i < n; i++) {
+    amount = periodReturn(amount, interest / 100);
+  }
+  return amount;
+} */
+
+//console.log(periodReturn(10000, 5, 2));

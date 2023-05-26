@@ -150,7 +150,7 @@ console.log(filterLt(130, arr)); */
 //13
 // same as above but greater
 
-/* const arr = [120, 112, 111, 130, 169, 101];
+const arr = [120, 112, 111, 130, 169, 101];
 
 function filterGt(n, arr) {
   //build the box
@@ -165,7 +165,7 @@ function filterGt(n, arr) {
   return filterGtBox;
 }
 
-console.log(filterGt(111, arr)); */
+console.log(filterGt(111, arr));
 
 //---------------------------------------------------
 
